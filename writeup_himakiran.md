@@ -251,7 +251,7 @@ The top five soft max probabilities imagewise are
 | 0.000000000000003		| Speed limit (80km/h)			 				|
 | 0.00000000000000008	| Go straight or left							|
 
-3. keepright
+3. Keep Right
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
