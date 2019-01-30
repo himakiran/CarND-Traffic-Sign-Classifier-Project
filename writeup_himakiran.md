@@ -88,9 +88,7 @@ y_train = np.concatenate((y_train, y_train_aug))
 
 Plotting a histogram of the augmented data set we can see now that all images which were earlier less
 than 1250 have all been made up.
-
-![alt text][write_up_images/aug_hist.png]
-
+![alt text](write_up_images/aug_hist.png )
 
 #### 2. Pre-Processing the Data Set : Augmentation of Validation Data set
 
