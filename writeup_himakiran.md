@@ -170,7 +170,10 @@ another model if we fail to get the results with this model. We intially tried t
 data sets. However this failed  to give us desirable results even after extensively tuning the hyper parameters especially
 the learning rate. Then we watched this video which was referenced in the project instructions
 
-[Q and A video]: <https://www.youtube.com/watch?v=ni95EfPILjI&feature=youtu.be> "Question Answer Video"
+
+<a href="https://www.youtube.com/watch?v=ni95EfPILjI&feature=youtu.be
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 Then we realized that may be some images which were very less in number in the training set must be the reason the model is not performing well. Then we decided to augment the training data set such that all images are adequately represented  as discussed
 above in pre-processing:augmentation. This gave us very good results. We also experimented with the contrast transform but
