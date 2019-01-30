@@ -48,7 +48,7 @@ A random sample of images from the training, validation and test data set are sh
 The output histogram of three data sets shows that the images vary in frequency. Some of the images are very less in number
 and this might affect the efficacy of the training portion. Hence we have chosen 1250 as the baseline for the minimum
 number of images that should be present in the training data for each type of image. The following code augments the training data.
-~~~~
+```
 # We shall try to augment the training set with the images corresponding to the labels poorly represented in the 
 # label histogram of the raining data set
 # To do that we choose 1250 as the baseline so that the training data set has minimum 1250 images of each type in it
@@ -84,7 +84,8 @@ for i in range(0,len(X_train)-1):
 X_train_aug,y_train_aug = np.array(X_data_aug),np.array(y_data_aug)
 X_train = np.concatenate((X_train, X_train_aug))
 y_train = np.concatenate((y_train, y_train_aug))
-~~~~
+
+```
 
 Plotting a histogram of the augmented data set we can see now that all images which were earlier less
 than 1250 have all been made up.
