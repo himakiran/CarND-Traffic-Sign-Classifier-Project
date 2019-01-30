@@ -97,7 +97,7 @@ After augmenting the Training data set we realize that the validation data set i
 of the training data set. To get it upto 20% size of the new training data set we augment the validation data set
 by radomly selecting images from the training data set and appending it to the validation data set. The code below
 executes the same
-~~~~
+```
 num = int((0.20 * len(X_train)) - len(X_valid))
 print("Shortfall in Validation data : {}".format(num))
 def augment_valid_data(num):
@@ -118,19 +118,19 @@ print("Number of training examples =", len(X_train))
 print("Number of labels =", len(y_train))
 print("Number of validation examples =", len(X_valid))
 print("Number of labels =", len(y_valid))
-~~~~
+```
 
 #### 3. Pre-Processing the Data Set : Normalization of the Data sets
 
 The mean of the data set is very high at 
 
-``` Mean before normalizing 77.41467293511508 ```
+`Mean before normalizing 77.41467293511508 `
 
 Hence we normalize the data set by subtracting and dividing by 128.
 
 Now the mean is an acceptable value close to zero
 
-```Mean after normalizing -0.3951948881149292```
+`Mean after normalizing -0.3951948881149292`
 
 #### 2. Final model architecture 
 
