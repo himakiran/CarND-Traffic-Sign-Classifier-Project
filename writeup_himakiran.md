@@ -32,13 +32,13 @@ signs data set:
 Here is an exploratory visualization of the data set. It is a histogram plot showing the distribution of images
 from the training set.
 Histogram of the Training Set
-![alt text](write_up_images/trg_labels_hist.png)
+![alt text](write_up_images/trg_labels_hist.png " ")
 Histogram of the Validation Set
-![alt text](write_up_images/valid_labels_hist.png)
+![alt text](write_up_images/valid_labels_hist.png )
 Histogram of the Testing Set
-![alt text](write_up_images/testing_labels_hist.png)
+![alt text](write_up_images/testing_labels_hist.png )
 A random sample of images from the training, validation and test data set are shown below
-![alt text](write_up_images/random_sample.png)
+![alt text](write_up_images/random_sample.png )
 
 
 ### Design and Test a Model Architecture
