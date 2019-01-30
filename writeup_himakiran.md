@@ -172,7 +172,7 @@ the learning rate. Then we watched this video which was referenced in the projec
 
 
 <a href="https://www.youtube.com/watch?v=ni95EfPILjI&feature=youtu.be
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+" target="_blank"><img src="http://img.youtube.com/vi/ni95EfPILjI/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 Then we realized that may be some images which were very less in number in the training set must be the reason the model is not performing well. Then we decided to augment the training data set such that all images are adequately represented  as discussed
