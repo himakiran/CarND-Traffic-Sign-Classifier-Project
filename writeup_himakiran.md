@@ -191,16 +191,18 @@ My final model results were:
 
 #### 1. Choose five traffic signs found on the web and provide them in the report. 
 
-Here are five traffic signs that I found on the web:
-web_images/'
-names = ['30kmph.jpg',\
-         '50kmph.jpg',\
-         'keepright.jpg',\
-         'proadsign.jpeg',\
-         'yield.jpg']
+Here are five traffic signs that I found on the web: web_images
+* 30kmph.jpg
+* 50kmph.jpg
+* keepright.jpg
+* proadsign.jpeg
+* yield.jpg
 
-![30 Kmph][web_images/30kmph.jpg] ![50 Kmph][web_images/50kmph.jpg] ![Keep Right][web_images/keepright.jpg] 
-![Priority Road Sign][web_images/proadsign.jpeg] ![yield][web_images/yield.jpg]
+![30 Kmph](web_images/30kmph.jpg )
+![50 Kmph](web_images/50kmph.jpg ) 
+![Keep Right](web_images/keepright.jpg ) 
+![Priority Road Sign](web_images/proadsign.jpeg ) 
+![yield](web_images/yield.jpg )
 
 
 #### 2. The model's predictions on these new traffic signs and compare the results to predicting on the test set. 
